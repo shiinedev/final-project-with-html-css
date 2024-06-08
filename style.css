@@ -390,7 +390,7 @@ input,textarea{
 
 @media (max-width:768px){
   header{
-    background-color: white;
+    background-color: rgb(247, 247, 247);
   }
 
   .hero-section h1 {
@@ -454,7 +454,7 @@ input,textarea{
     display: none;
   }
   .nav-bar[data-visible="false"]{
-    transform: translateY(-130%);
+    transform: translateY(-145%);
     
   }
   .program-grid{
@@ -492,6 +492,7 @@ input,textarea{
    
     padding-inline: 1rem;
     text-align: start;
+    padding-left: 15%;
   }
  
 }
