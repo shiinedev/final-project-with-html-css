@@ -241,7 +241,7 @@ p{
  }
  .schedules-info{
   margin-top: 10rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
  }
  .schedules-info p{
   color: white;
@@ -376,13 +376,14 @@ input,textarea{
 
 
  footer{
-  margin-top: 1rem;
+ 
   height: 5.3125rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-block: 2rem;
   text-align: center;
   font-size: 1rem;
+ }
+ footer a{
+  text-decoration: none;
  }
 
 
@@ -402,7 +403,7 @@ input,textarea{
 
   }
   .menu h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
     margin-right: 5rem;
     color: black;
@@ -487,7 +488,11 @@ input,textarea{
     flex-direction: column;
     gap: 2rem;
   }
-  
+  footer{
+   
+    padding-inline: 1rem;
+    text-align: start;
+  }
  
 }
  
