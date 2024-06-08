@@ -1,0 +1,493 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ body{
+    font-family: "Poppins", sans-serif;
+    
+ }
+ img{
+  max-width: 100%;
+ }
+ .container{
+    width:min(90%,1200px) ;
+    margin-inline: auto;
+
+ }
+ 
+ header{
+   background-color:white;
+    height: 5rem; 
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+ }
+ .humbergur{
+  display: none;
+ }
+
+ .menu{
+   height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ .nav-bar{
+   height: 100%;
+    display: flex;
+    align-items: center;
+   gap: 2rem;
+ }
+ .nav-bar li{
+    list-style: none;
+ }
+ .nav-bar li a{
+   color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+ .nav-bar li a:hover{
+   color: #ed563b;
+ }
+ .menu h1{
+   
+   font-size: 2rem;
+ }
+
+ .nav-bar .active{
+  color: #ed563b;
+ }
+ .active{
+   color: #ed563b;
+ }
+ .btn{
+   background-color: #ed563b;
+   border: none;
+   padding: 0.6875rem 1.1rem;
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+   cursor: pointer;
+ }
+ .nav-bar .btn:hover{
+   color:#ee664e;
+
+ }
+.hero-section{
+  height:100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 1.5rem;
+   color: white;
+   background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)),url('https://media.istockphoto.com/id/1436388622/photo/2-chinese-senior-men-jumping-jack-side-by-side-in-gym.jpg?s=1024x1024&w=is&k=20&c=8X6Br4L_1kIfkEysrqcf8wg8E_gTwCgnDAVR5hVh9_k=')top/cover no-repeat;
+   text-align: center;
+}
+.hero-section h1{
+   font-size: 5.25rem;
+}
+.hero-section h6{
+   font-size: 1.125rem;
+}
+
+.our-program{
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+ gap: 5rem;
+}
+.header-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+ }
+ .program-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 4rem;
+ }
+ .items{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.875rem;
+ }
+ .items img{
+  margin-right: 1.875rem;
+ text-align: center;
+ }
+ .items .info{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ 
+ }
+h4{
+  color: #232d39;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 0.4375rem;;
+ }
+p{
+  font-size: 0.875;
+  line-height: 1.5625rem;
+  color: #7a7a7a;
+ }
+ .info a{
+  margin-top:0.4375rem;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  color: #ed563b;
+  font-weight: 500;
+  text-decoration: none;
+ }
+ .motivation-section{
+  margin-top: 10rem;
+  height: 30.4925rem;
+  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("https://media.istockphoto.com/id/1223134253/photo/large-group-of-athletes-having-weight-training-in-a-gym.jpg?s=2048x2048&w=is&k=20&c=d_p_LtNWvSNUCYaFpSAnayZuTcu_9YvVKfYu5lsjueQ=")center/cover no-repeat;
+ }
+ .motivation-info{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  gap: 2rem;
+  margin-inline: auto;
+ }
+ .motivation-info h2{
+  font-size: 2.25rem;
+ }
+ .our-classes{
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+ 
+   gap: 4rem;
+ }
+ .classes-flex{
+
+  display: flex;
+
+  gap: 3rem;
+  
+  
+ }
+ .left-flex{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+
+ }
+ .left-flex button{
+  background-color: #ed563b;
+  border: none;
+  padding: 1.5rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+ }
+ .class-card{
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  background-color: white;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+  padding: 2rem ;
+ }
+ .card1 h4{
+  color: #ed563b;
+ }
+ .right-flex{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+ }
+ .right-flex img{
+  height: 18.3125rem;
+ }
+ .right-info{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.8rem;
+ }
+
+ .schedules{
+  margin-top: 10rem;
+  height: 66.474375rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0,0,0,0.9)),url('https://media.istockphoto.com/id/1521248133/photo/asian-woman-exercising-by-lifting-a-ball-in-the-gym-health-fitness.jpg?s=1024x1024&w=is&k=20&c=6-NHM3RkYv5DFmrQq-MuV-nfnxQJH3wjCOIo7P46Zz0=')top/cover no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+ }
+ .schedules-info{
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+ }
+ .schedules-info p{
+  color: white;
+ }
+ .shcedule-days .days{
+  margin-bottom: 5rem;
+  display: flex;
+
+ }
+ .days li{
+  list-style: none;
+ }
+ table{
+  width: 45rem;
+  height: 31.3125rem;
+  border-color: white;
+  border-collapse:collapse;
+ }
+ .table-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 1rem;
+ }
+ 
+ table tbody tr td{
+ 
+  height: 100px;
+  text-align: center;
+  font-size:0.8125rem ;
+  
+ }
+ .expert-trainers{
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+ }
+ .expert-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+ }
+ .cards{
+  background-color: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+ padding-block: 2rem;
+ border-radius: 5px;
+  
+ }
+ .cards img{
+ 
+  padding:2rem;
+  border-radius: 10px;
+ 
+ }
+ .card-info{
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+ }
+ .card-info h4{
+  color: black;
+ }
+ .card-info span{
+  color: #ed563b;
+ }
+ .social{
+  margin-top: 2rem;
+  padding-inline: 2rem;
+  display: flex;
+  gap: 1rem;
+ }
+ .map-form{
+  margin-top: 10rem;
+  height: 37.5rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+ }
+ .map {
+  width: 100%;
+  height: 100%;
+ }
+ iframe{
+  width: 100%;
+  height: 100%;
+ }
+ .form{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("https://media.istockphoto.com/id/1223134253/photo/large-group-of-athletes-having-weight-training-in-a-gym.jpg?s=2048x2048&w=is&k=20&c=d_p_LtNWvSNUCYaFpSAnayZuTcu_9YvVKfYu5lsjueQ=")center/cover no-repeat;
+ }
+
+form{
+  width:80%;
+  height:65%;
+  background-color: white;
+  margin-top:  25%;
+  margin-inline: auto;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.group-1{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.form-group{
+  margin-bottom: 2rem;
+}
+textarea{
+  max-width: 100%;
+  height:min(90%,10rem) ;
+}
+input,textarea{
+  color: #7a7a7a;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    
+}
+.form-group input,textarea{
+  width: 100%;
+}
+
+
+ footer{
+  margin-top: 1rem;
+  height: 5.3125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+ }
+
+
+
+@media (max-width:768px){
+  header{
+    background-color: white;
+  }
+
+  .hero-section h1 {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .menu{
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  .menu h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-right: 5rem;
+    color: black;
+  }
+  .nav-bar{
+    margin-top: 5rem;
+    width: 90%;
+    flex-direction: column;
+    position: fixed;
+    background-color:#f7f7f7;
+    height: 325px;
+    gap: 0;
+    transform: translateY(0%);
+    transition: transform 0.5s ;
+    
+  }
+  .nav-bar li{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0,0.2);
+    text-align: center;
+    padding-block: 15px;
+  }
+  .nav-bar li a{
+    text-align: center;
+    color: black;
+  }
+  .home{
+    border-top: 1px solid rgb(0, 0, 0,0.2);
+    width: 100%;
+   
+  }
+  .nav-bar button{
+    border-bottom: 1px solid rgb(0, 0, 0,0.2);
+    width: 100%;
+    padding-block:1rem ;
+  }
+  .humbergur{
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    font-size: 2rem;
+  }
+  .humbergur i[data-visible="true"]{
+    display: block;
+  }
+  .humbergur i[data-visible="false"]{
+    display: none;
+  }
+  .nav-bar[data-visible="false"]{
+    transform: translateY(-130%);
+    
+  }
+  .program-grid{
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .info a {
+    margin-bottom: 1rem;
+  }
+  .classes-flex{
+    flex-direction: column;
+  }
+  .left-flex{
+    width: 100%;
+  }
+  .right-flex{
+    width: 100%;
+  }
+  .expert-cards{
+    grid-template-columns: 1fr;
+  }
+  .map-form{
+    height: 75rem; ;
+    grid-template-columns: 1fr;
+  }
+  input,textarea{
+    padding: 1rem;
+  }
+ 
+  .group-1{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+ 
+}
+ 
